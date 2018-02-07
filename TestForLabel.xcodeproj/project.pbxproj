@@ -15,6 +15,7 @@
 		0135BE4B202AA67A00BD1BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0135BE4A202AA67A00BD1BCC /* main.m */; };
 		0135BE55202AA67A00BD1BCC /* TestForLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0135BE54202AA67A00BD1BCC /* TestForLabelTests.m */; };
 		0135BE60202AA67A00BD1BCC /* TestForLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0135BE5F202AA67A00BD1BCC /* TestForLabelUITests.m */; };
+		0135BE6F202AA96200BD1BCC /* UILabel+VerticalAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = 0135BE6E202AA96200BD1BCC /* UILabel+VerticalAlign.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0135BE5B202AA67A00BD1BCC /* TestForLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0135BE5F202AA67A00BD1BCC /* TestForLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForLabelUITests.m; sourceTree = "<group>"; };
 		0135BE61202AA67B00BD1BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0135BE6D202AA96200BD1BCC /* UILabel+VerticalAlign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+VerticalAlign.h"; sourceTree = "<group>"; };
+		0135BE6E202AA96200BD1BCC /* UILabel+VerticalAlign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalAlign.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0135BE3C202AA67A00BD1BCC /* AppDelegate.m */,
 				0135BE3E202AA67A00BD1BCC /* ViewController.h */,
 				0135BE3F202AA67A00BD1BCC /* ViewController.m */,
+				0135BE6D202AA96200BD1BCC /* UILabel+VerticalAlign.h */,
+				0135BE6E202AA96200BD1BCC /* UILabel+VerticalAlign.m */,
 				0135BE41202AA67A00BD1BCC /* Main.storyboard */,
 				0135BE44202AA67A00BD1BCC /* Assets.xcassets */,
 				0135BE46202AA67A00BD1BCC /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0135BE6F202AA96200BD1BCC /* UILabel+VerticalAlign.m in Sources */,
 				0135BE40202AA67A00BD1BCC /* ViewController.m in Sources */,
 				0135BE4B202AA67A00BD1BCC /* main.m in Sources */,
 				0135BE3D202AA67A00BD1BCC /* AppDelegate.m in Sources */,
@@ -432,6 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestForLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestForLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestForLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestForLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";

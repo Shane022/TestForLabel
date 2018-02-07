@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UILabel+VerticalAlign.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self setupWidgets];
+}
+
+- (void)setupWidgets
+{
+    self.nameLabel.text = @"学习贯彻党的十九大精神专题报道";
+    self.name1Label.text = @"十九大专题报道";
+    
+    [self.name1Label alignBottom];
 }
 
 
